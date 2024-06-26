@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "20240625-durable-sessions"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Chu <anthony@anthonychu.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-identity = "^1.17.1"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
